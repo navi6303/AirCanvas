@@ -22,12 +22,12 @@ Set the platform target to x64
 - Step 4:
 Add Directories by going to Project-Properties-Configuration Properties-
 
-VC++ Directories
-    1. Add Build Directories: D:opencvbuildinclude
-    2. Add Library Directories: D:opencvbuildx64vc15lib
+# VC++ Directories
+1. Add Build Directories: D:opencvbuildinclude
+2. Add Library Directories: D:opencvbuildx64vc15lib
 Linker Input 
-    3. Add Linker input: opencv_world454d.lib
-       d for debug without d for release 
+ 3. Add Linker input: opencv_world454d.lib
+ 4. d for debug without d for release 
 
 # HOW TO RUN CODE
 
